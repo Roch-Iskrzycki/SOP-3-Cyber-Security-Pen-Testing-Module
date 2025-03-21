@@ -8,4 +8,8 @@
 ## FTP: 
   The ftp anonymous connection is a simple proccess that only requires a machine to have a port using the ftp service to be open.
   
+Here in this screenshot we can see an nmap scan showing the open ports on the vulnreble metasploit virtual machine. 
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/37751bec-7478-4db8-b37a-32a7fa53eda3)
+
+In the list of port it shows port 21 ftp is open. 
+
