@@ -3,12 +3,12 @@
 <img src="https://www.lumificyber.com/wp-content/uploads/2023/08/blog_penetration_tester.jpg" width="400"/>
 
 ## Module 1: Anonymous Connections
-  In this module I will use a Kali Linux Virtual Machine to connect anonymously to services like FTP, SMB, Telnet, Rsync, and RDP on vulnreble virtual machines.
+  In this module I will use a Kali Linux Virtual Machine to connect anonymously to services like FTP, SMB, Telnet, Rsync, and RDP on vulnerable virtual machines.
 |
 ## FTP: 
   The ftp anonymous connection is a simple proccess that requires a machine to have a port using the ftp service to be open.
   
-Here in this screenshot we can see an nmap scan showing the open ports on the vulnreble metasploit virtual machine. 
+Here in this screenshot we can see an nmap scan showing the open ports on the vulnerable metasploit virtual machine. 
 In the list of ports it shows port 21 ftp is open. 
 
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/37751bec-7478-4db8-b37a-32a7fa53eda3)
@@ -31,11 +31,22 @@ Using the "pwd" command to show the current working directory and "ls -la" comma
 ## SMB: 
   For the smb anonymous connection it requires a machine to have port 139 and port 445 open using the netbios-ssn service.
 
-  In the screenshot below it shows an nmap scan to show open ports on the vulnreble metasploit virtual machine.
+  In the screenshot below it shows an nmap scan to show open ports on the vulnerable metasploit virtual machine.
   In the list of ports in shows port 139 and port 445 using the netbios-ssn service to be open. 
 
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/dde5f0c5-62fd-4210-b1fb-babcaf096ec0)
 
-Using the smbclient help menu by entering the command "smbclient -?"
+You can use the smbclient help menu by entering the command "smbclient -?" for usage.
+
 ![smb help 1](https://github.com/user-attachments/assets/639bfc0a-c985-4cbe-87c5-bb24f6061276)
 ![smb help 2](https://github.com/user-attachments/assets/275e2cfc-b251-4e1b-a64f-97efe8e650cf)
+
+To access shared resources using smbclient you can use the "-L" option to list the shares.
+
+![SMB anon connect](https://github.com/user-attachments/assets/f47bad77-20f7-46a4-81bb-c6c8f847d9ca)
+
+
+
+
+
+
