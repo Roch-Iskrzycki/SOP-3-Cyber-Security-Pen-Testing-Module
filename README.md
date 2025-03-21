@@ -14,6 +14,7 @@ In the list of ports it shows port 21 ftp is open.
 
 The next step is to establish the anonymous connection using the ftp command ftp <IP_Address>
 Shown in this next screenshot below.
+
 ![FTP anon connect](https://github.com/user-attachments/assets/70e6d0d2-86bd-4554-997c-7fa6bb9c700c)
 
 
