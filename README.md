@@ -47,7 +47,7 @@ To access shared resources using smbclient you can use the "-L" option to list t
 
 
 ## Telnet:
-  Telnet does not require authentication when connecting, so if the port is open you can easily connect anonymously. \n
+  Telnet does not require authentication when connecting, so if the port is open you can easily connect anonymously.
   Telnet requires port 23 using telnet to be open to establish connections. 
   In the nmap scan below it shows port 23 telent to be open.
 
