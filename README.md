@@ -6,7 +6,7 @@
   In this module I will use a Kali Linux Virtual Machine to connect anonymously to services like FTP, SMB, Telnet, Rsync, and RDP on vulnreble virtual machines.
 |
 ## FTP: 
-  The ftp anonymous connection is a simple proccess that only requires a machine to have a port using the ftp service to be open.
+  The ftp anonymous connection is a simple proccess that requires a machine to have a port using the ftp service to be open.
   
 Here in this screenshot we can see an nmap scan showing the open ports on the vulnreble metasploit virtual machine. 
 In the list of ports it shows port 21 ftp is open. 
