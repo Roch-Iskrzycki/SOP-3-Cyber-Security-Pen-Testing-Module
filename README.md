@@ -10,6 +10,7 @@
   
 Here in this screenshot we can see an nmap scan showing the open ports on the vulnreble metasploit virtual machine. 
 In the list of ports it shows port 21 ftp is open. 
+
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/37751bec-7478-4db8-b37a-32a7fa53eda3)
 
 The next step is to establish the anonymous connection using the ftp command ftp <IP_Address> with the credentials user=anonymous and the password can be anything.
@@ -26,3 +27,15 @@ Using the "pwd" command to show the current working directory and "ls -la" comma
 
 ![FTP pwd ls -la](https://github.com/user-attachments/assets/c7d08528-1a9a-4cce-bbd9-87f88a3dc3ad)
 
+
+## SMB: 
+  For the smb anonymous connection it requires a machine to have port 139 and port 445 open using the netbios-ssn service.
+
+  In the screenshot below it shows an nmap scan to show open ports on the vulnreble metasploit virtual machine.
+  In the list of ports in shows port 139 and port 445 using the netbios-ssn service to be open. 
+
+![Nmap -sS Scan ](https://github.com/user-attachments/assets/dde5f0c5-62fd-4210-b1fb-babcaf096ec0)
+
+Using the smbclient help menu by entering the command "smbclient -?"
+![smb help 1](https://github.com/user-attachments/assets/639bfc0a-c985-4cbe-87c5-bb24f6061276)
+![smb help 2](https://github.com/user-attachments/assets/275e2cfc-b251-4e1b-a64f-97efe8e650cf)
