@@ -46,6 +46,19 @@ To access shared resources using smbclient you can use the "-L" option to list t
 ![SMB anon connect](https://github.com/user-attachments/assets/f47bad77-20f7-46a4-81bb-c6c8f847d9ca)
 
 
+## Telnet:
+  Telnet does not require authentication when connecting, so if the port is open you can easily connect anonymously. \n
+  Telnet requires port 23 using telnet to be open to establish connections. 
+  In the nmap scan below it shows port 23 telent to be open.
+
+![Nmap -sS Scan ](https://github.com/user-attachments/assets/1c905eef-63da-44e3-a8c0-1099c865280c)
+
+To establish the telnet connection use the command "telnet <IP_Address>"
+
+![Telnet anon connect ](https://github.com/user-attachments/assets/17363043-2127-4bf0-9388-aa4c6632f22f)
+
+  
+
 
 
 
