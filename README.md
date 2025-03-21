@@ -4,4 +4,8 @@
 
 ## Module 1: Anonymous Connections
   In this module I will use a Kali Linux Virtual Machine to connect anonymously to services like FTP, SMB, Telnet, Rsync, and RDP.
+|
+## FTP: 
+  The ftp anonymous connection is a simple proccess that only requires a machine to have a port using the ftp service to be open.
   
+![Nmap -sS Scan ](https://github.com/user-attachments/assets/37751bec-7478-4db8-b37a-32a7fa53eda3)
