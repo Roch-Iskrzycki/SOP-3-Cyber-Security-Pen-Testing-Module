@@ -21,8 +21,8 @@ The ftp service has a help menu you can open by typing "help". This will give yo
 
 ![FTP Help menu](https://github.com/user-attachments/assets/f8d17bfa-c8ce-4d8e-a618-48871ca05a82)
 
-The last step for the anonymous ftp is to list directories. In the help menu we can see both the "ls" and "dir" commands to list directories. 
-Using the "ls -la" command to list all directories and hidden directories.
+The last step for the anonymous ftp is to list directories. In the help menu we can see both the "ls" and "dir" commands to list directories and the "pwd" command to print our current working directory. 
+Using the "pwd" command to show the current working directory and "ls -la" command to list all directories and hidden directories below.
 
 ![FTP pwd ls -la](https://github.com/user-attachments/assets/c7d08528-1a9a-4cce-bbd9-87f88a3dc3ad)
 
