@@ -57,6 +57,8 @@ To establish the telnet connection use the command "telnet <IP_Address>"
 
 ![Telnet anon connect ](https://github.com/user-attachments/assets/17363043-2127-4bf0-9388-aa4c6632f22f)
 
+## Rsync:
+    
   
 
 
