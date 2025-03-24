@@ -72,8 +72,8 @@ To fix this issue I had to input the host key algorithms in the rsync command.
 
 rsync -av -e 'ssh -oHostKeyAlgorithms=+ssh-rsa' /home/roszek/Desktop/usernames.txt msfadmin@192.168.1.189:/home/msfadmin
 
--av: stands for a(Archive mode) this option preserves permissions and v(verbose) this option shows more details in the output.
--e ssh: This option is how you can select ssh for the file transfer. 
+-av: stands for a(Archive mode) this option preserves permissions and v(verbose) this option shows more details in the output.\
+-e ssh: This option is how you can select ssh for the file transfer.\ 
 -oHostKeyAlgorithms=+ssh-rsa: This option inputs the correct host key algorithm to establish the file transer connection. 
 
 ![rsync connection](https://github.com/user-attachments/assets/ee14803a-fe25-4ff8-8817-f33ad0b37eb0)
