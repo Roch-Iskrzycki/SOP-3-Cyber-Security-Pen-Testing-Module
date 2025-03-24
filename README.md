@@ -85,7 +85,7 @@ With the success of the connection in the next screenshow below we can see the u
 ![metasploit ls with rsync](https://github.com/user-attachments/assets/6d31948a-2aa4-4bba-b47b-5dc3dcae968e)
 
 
-** RDP: 
+## RDP: 
   For the anonymous rdp connection we need to scan the target machine to see if port 3389 is open.  
 
   In the scan below the port list shows that port 3389 is open on the windows 7 machine.
