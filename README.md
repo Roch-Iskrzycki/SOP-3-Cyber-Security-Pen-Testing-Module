@@ -58,13 +58,27 @@ To establish the telnet connection use the command "telnet <IP_Address>"
 ![Telnet anon connect ](https://github.com/user-attachments/assets/17363043-2127-4bf0-9388-aa4c6632f22f)
 
 ## Rsync:
-  rsync 
-  
-![rsync error](https://github.com/user-attachments/assets/bae19153-d547-42d8-95e3-12af7b1dbf3d)
+
+  This first screen shot below shows the target machines files in the msfadmin direcotry using the ls command to show the contents before the rsync connection.
 
 ![metasploit ls without rsync](https://github.com/user-attachments/assets/34a5c31e-43a7-4ded-b26e-28fb15b2bbe5)
 
+  For the rsync connection both machines need to have rsync and matching host key types. In my first attempt in establishing the connection I ran into an issue with host key types. 
+  these host key type mismatches were blocking the connection. Shown in the screen shot below. 
+  
+![rsync error](https://github.com/user-attachments/assets/bae19153-d547-42d8-95e3-12af7b1dbf3d)
+
+To fix this issue I had to input the host key algorithms in the rsync command. 
+
+rsync -av -e 'ssh -oHostKeyAlgorithms=+ssh-rsa' /home/roszek/Desktop/usernames.txt msfadmin@192.168.1.189:/home/msfadmin
+
+-av: stands for a(Archive mode) this option preserves permissions and v(verbose) this option shows more details in the output.
+-e ssh: This option is how you can select ssh for the file transfer. 
+-oHostKeyAlgorithms=+ssh-rsa: This option inputs the correct host key algorithm to establish the file transer connection. 
+
 ![rsync connection](https://github.com/user-attachments/assets/ee14803a-fe25-4ff8-8817-f33ad0b37eb0)
+
+
 
 
 
