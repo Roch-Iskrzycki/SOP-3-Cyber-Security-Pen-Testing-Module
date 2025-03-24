@@ -85,5 +85,27 @@ With the success of the connection in the next screenshow below we can see the u
 ![metasploit ls with rsync](https://github.com/user-attachments/assets/6d31948a-2aa4-4bba-b47b-5dc3dcae968e)
 
 
+** RDP: 
+  For the anonymous rdp connection we need to scan the target machine to see if port 3389 is open.  
 
+  In the scan below the port list shows that port 3389 is open on the windows 7 machine.
+
+![rdp nmap scan](https://github.com/user-attachments/assets/9b4002ce-10bd-4cd1-a44f-cece27eb3161)
+
+  Now to access the machine without credentials we can test to see if the machine has a guest account active by using the command.  
+
+  rdesktop -u "" -p "" <IP_ADDRESS>
+
+  -u: this options is for username 
+  -p: this opetion is for password 
+
+  The reason these options are set to empty quotation marks is to see if the windows machine has a guest account for us to log into.  
+
+  In the screenshot below we can see the successful connection to the remote windows machine and the option to log in with the guest account.  
+
+  ![rdp connection ](https://github.com/user-attachments/assets/af54d73a-de08-406a-b9ed-72c8a42260d4)
+
+  In this last screen shot we used the guest account to login and now we have access to the windows 7 machine.
+
+  ![rdp login](https://github.com/user-attachments/assets/6d2c5235-bfc5-4c67-8c69-d2fc7dc41ac5)
 
