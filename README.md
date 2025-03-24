@@ -96,8 +96,8 @@ With the success of the connection in the next screenshow below we can see the u
 
   rdesktop -u "" -p "" <IP_ADDRESS>
 
-  -u: this options is for username 
-  -p: this opetion is for password 
+  -u: this options is for username   
+  -p: this opetion is for password   
 
   The reason these options are set to empty quotation marks is to see if the windows machine has a guest account for us to log into.  
 
