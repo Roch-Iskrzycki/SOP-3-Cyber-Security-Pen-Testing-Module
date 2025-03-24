@@ -75,10 +75,14 @@ rsync -av -e 'ssh -oHostKeyAlgorithms=+ssh-rsa' /home/roszek/Desktop/usernames.t
 -av: stands for a(Archive mode) this option preserves permissions and v(verbose) this option shows more details in the output.\
 -e ssh: This option is how you can select ssh for the file transfer.   
 -oHostKeyAlgorithms=+ssh-rsa: This option inputs the correct host key algorithm to establish the file transer connection.  
+-/home/roszek/Desktop/usernames.txt: This option determines what files or directiories you are syncing.  
+-msfadmin@192.168.1.189:/home/msfadmin: This option is the server you are connecting to and the destination of the file transfer. 
 
 ![rsync connection](https://github.com/user-attachments/assets/ee14803a-fe25-4ff8-8817-f33ad0b37eb0)
 
+With the success of the connection in the next screenshow below we can see the usernames.txt was succesfully transfer to the target machine. 
 
+![metasploit ls with rsync](https://github.com/user-attachments/assets/6d31948a-2aa4-4bba-b47b-5dc3dcae968e)
 
 
 
