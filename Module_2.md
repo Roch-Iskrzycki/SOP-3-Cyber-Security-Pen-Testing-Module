@@ -14,7 +14,7 @@
     
 ![nmap -sU scan](https://github.com/user-attachments/assets/f1ad556b-fe04-4480-b449-069aad7555e0)
 
-  In this next scan I used the nmap -sV <IP_ADDRESS> command to list more detailes about the services being used. The extra details help in determining versions of the services to see what ports/services can be exploited and what can not be exploited.
+  In this next scan I used the nmap -sV <IP_ADDRESS> command to list more details about the services being used. The extra details help in determining versions of the services to see what ports/services can be exploited and what can not be exploited.
   - -sV: This option tells nmap to have a more detailed scan output.
 
   - The output from this scan gives the same 23 ports from the TCP SYN scan but we get a more detailed look at the versions of the services being used for example, vsftpd 2.3.4, smbd 3.X - 4.X, Apache httpd 2.2.8, etc.
