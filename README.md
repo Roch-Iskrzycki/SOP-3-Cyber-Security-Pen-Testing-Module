@@ -6,6 +6,6 @@
 ## Module List:
 
 - Module 1: https://github.com/Roch-Iskrzycki/SOP-3-Cyber-Security-Pen-Testing-Module/blob/main/Module_1.md  
-- Module 2:
-- Module 3:
-- Module 4:
+- Module 2: https://github.com/Roch-Iskrzycki/SOP-3-Cyber-Security-Pen-Testing-Module/blob/main/Module_2.md  
+- Module 3: https://github.com/Roch-Iskrzycki/SOP-3-Cyber-Security-Pen-Testing-Module/blob/main/Module_3.md  
+- Module 4: https://github.com/Roch-Iskrzycki/SOP-3-Cyber-Security-Pen-Testing-Module/blob/main/Module_4.md  
