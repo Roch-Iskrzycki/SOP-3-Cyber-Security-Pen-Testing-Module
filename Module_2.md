@@ -1,6 +1,6 @@
 ## Module 2: Port Scanning With Nmap
 
-  In this first scan I used the nmap -sS <IP_ADDRESS> command to list the results of a tcp SYN scan. This scan shows open TCP ports aswell as the name of the services using the ports.  
+  In this first scan I used the nmap -sS <IP_ADDRESS> command to list the results of a TCP SYN scan. This scan shows open TCP ports aswell as the name of the services using the ports.  
   - -sS: This option tells nmap to do a TCP SYN scan.
 
   - The output from this scan gives us 23 open ports with many vulnerable services like ftp, telnet, ssh, http, etc.
