@@ -1,7 +1,7 @@
 ## Module 2: Port Scanning With Nmap
 
   In this first scan I used the nmap -sS <IP_ADDRESS> command to list the results of a tcp SYN scan. This scan shows open TCP ports aswell as the name of the services using the ports.  
-    * -sS: this option tells nmap to do a TCP SYN scan
+  - -sS: this option tells nmap to do a TCP SYN scan
   
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/b2ad3988-f9ba-483f-be7e-4e3182924339)
 
