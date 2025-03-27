@@ -12,9 +12,13 @@
 
 ![mongo image](https://github.com/user-attachments/assets/2942481c-0ea6-47fa-9da2-2e20173c94e6)
 
-# Before running the container you have to make a file to store the mongodb data. 
+Step 2: Mongodb data directory 
+
+ - Before running the container you have to make a file to store the mongodb data. 
 
  - On my local machine in the /home/roszek directory I made a new directory called mongodb_data
+
+Step 3: Run the container
 
   Now to run the container use the command: "docker run -d -p 27017:27017 -v /directory/file/location:/data/db mongo:4.0.4"
 
@@ -23,6 +27,8 @@
   - -v: this flag means volume. Here we set the path to the directory that stores the mongodb container data and then map it to the default path to the mongodb database.
 
 ![mongo container ](https://github.com/user-attachments/assets/a1226e09-96e7-407f-82b2-d02136201eb9)
+
+Step 4: Test connection
 
 Now to test if we can connect to the container. 
 
