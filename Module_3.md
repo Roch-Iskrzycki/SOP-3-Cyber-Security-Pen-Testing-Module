@@ -20,4 +20,14 @@
 
   - -d: this flag means detatch. It allows the container to run in the background.
   - -p: this flag lets you match the container to a port. for mongodb the common port is 27017
-  - -v: this flag means volume. Here we set the path to the directory that stores the mongodb container data and then map it to the default path to the mongodb database. 
+  - -v: this flag means volume. Here we set the path to the directory that stores the mongodb container data and then map it to the default path to the mongodb database.
+
+![mongo container ](https://github.com/user-attachments/assets/a1226e09-96e7-407f-82b2-d02136201eb9)
+
+Now to test if we can connect to the container. 
+
+In the screenshot above where we used the docker run command, the output gave a name for the new container. We can use that name to connect using the command "docker exec -it container_name mongo"
+
+- -it: This flag means interactive. It automatically brings you into the container. 
+
+![mongo test connect](https://github.com/user-attachments/assets/4c3ebe34-456b-4565-9a3e-8d4f74addbcb)
