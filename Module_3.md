@@ -37,3 +37,12 @@ In the screenshot above where we used the docker run command, the output gave a 
 - -it: This flag means interactive. It automatically brings you into the container. 
 
 ![mongo test connect](https://github.com/user-attachments/assets/4c3ebe34-456b-4565-9a3e-8d4f74addbcb)
+
+## Mongodb Exploitation
+
+  To connect to the mongodb container use the command "mongosh <IP_ADDRESS>:<PORT>"
+
+  - for the ip_address use the ip of the machine hosting the docker container
+  - for the port use the port used for the docker container  
+  
+  ![mongodb remote connection](https://github.com/user-attachments/assets/0b69cc7e-2b98-4c43-a6d0-1b25df346a0f)
