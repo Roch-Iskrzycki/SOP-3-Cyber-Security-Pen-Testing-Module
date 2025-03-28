@@ -46,3 +46,7 @@ In the screenshot above where we used the docker run command, the output gave a 
   - for the port use the port used for the docker container  
   
   ![mongodb remote connection](https://github.com/user-attachments/assets/0b69cc7e-2b98-4c43-a6d0-1b25df346a0f)
+
+  In the next step use the command "show dbs" to list the available databases 
+  
+  ![mongo show dbs](https://github.com/user-attachments/assets/d6b6c6a4-1192-4e79-a86b-ad3b29533f3d)
