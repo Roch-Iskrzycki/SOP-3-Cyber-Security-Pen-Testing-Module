@@ -40,7 +40,7 @@ In the screenshot above where we used the docker run command, the output gave a 
 
 ## Mongodb Exploitation
 
-  To connect to the mongodb container use the command "mongosh <IP_ADDRESS>:<PORT>"
+  To connect to the mongodb container use the command "mongosh <IP_ADDRESS>:<PORT>"  
 
   - for the ip_address use the ip of the machine hosting the docker container
   - for the port use the port used for the docker container  
