@@ -69,7 +69,7 @@ In the screenshot above where we used the docker run command, the output gave a 
 
   The final database we have access to is the local database. Using the same commands "show dbs", "use <database_name>", "show collections", and "db.colletion_name.find()" 
 
-  The startup_log shows information redgarding mongod instances, runtime options, and proccess ID's.
+  The startup_log shows information regarding mongod instances, runtime options, and proccess ID's.
 
   ![mongo local collections](https://github.com/user-attachments/assets/4cbf457c-9334-4c76-ac3d-c966ad117878)
   ![mongo local collections 2](https://github.com/user-attachments/assets/f6a78d51-b883-47ba-b4c0-866547c5f04d)
