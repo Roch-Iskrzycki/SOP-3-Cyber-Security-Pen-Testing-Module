@@ -39,3 +39,43 @@
   ##Pwned Box 
 
   ![meow pwned](https://github.com/user-attachments/assets/bc1e229f-e078-4b3b-b024-cce0221e1c4f)
+
+
+##Fawn Box
+
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+
+##Dancing Box
+
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+
+##Redeemer Box
+
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  ##Task :
+  
