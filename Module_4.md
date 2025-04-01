@@ -26,7 +26,7 @@
 
   - Root
 
-  - For the telnet login the command used was "telent <IP_ADDRESS>" and the login with root username. 
+  - For the telnet login the command used was "telent <IP_ADDRESS>" and loged in with root username. 
   ![telnet login](https://github.com/user-attachments/assets/d010ef5c-be6d-4bbf-a9c1-3eed06d0cca2)
 
   ##Submit Root Flag: 
