@@ -153,14 +153,59 @@
 
 ## Redeemer Box
 
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
-  ## Task :
+  ## Task 1: Which TCP port is open on the machine?
+
+  - 6379  
+  ![nmap](https://github.com/user-attachments/assets/9fe28435-6a6f-4df8-b12e-3ecea70c1698)
+
+  ## Task 2: Which service is running on the port that is open on the machine?
+
+  - Redis  
+  ![nmap](https://github.com/user-attachments/assets/5875147c-ccb1-4b0a-8795-29f964f269ae)
+
+  ## Task 3: What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
+
+  -In-memory Database  
   
+  ## Task 4: Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.
+
+  - redis-cli  
+![redis connect](https://github.com/user-attachments/assets/39424ad6-b715-491a-aa3e-68db09617645)
+
+  ## Task 5: Which flag is used with the Redis command-line utility to specify the hostname?
+
+  - -h  
+![redis connect](https://github.com/user-attachments/assets/d0e647b2-62af-45b9-9754-a463de196e97)
+
+  ## Task 6: Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?
+
+  - Info  
+  ![redis info](https://github.com/user-attachments/assets/fa32d754-1a04-4e75-8eb7-d393e8d35f4b)
+
+  ## Task 7: What is the version of the Redis server being used on the target machine?
+
+  - 5.0.7  
+  ![redis info](https://github.com/user-attachments/assets/af2e7fc1-d167-4720-996a-b585629fb8f1)
+
+  ## Task 8: Which command is used to select the desired database in Redis?
+
+  - select    
+  
+  ## Task 9: How many keys are present inside the database with index 0?
+
+  - 4    
+![keys db0](https://github.com/user-attachments/assets/b9ced55f-9e58-433a-8286-277b6b364ed5)
+
+  ## Task 10: Which command is used to obtain all the keys in a database?
+
+  - keys *  
+![view all keys](https://github.com/user-attachments/assets/c890781a-7bfd-413e-a111-942408224594)
+
+  ## Task 11: Root Flag
+
+  ![get flag](https://github.com/user-attachments/assets/06be9a9b-6385-4e96-9c67-01348779f156)
+
+  ## Pwned Box: 
+  
+  ![redeemer pwned](https://github.com/user-attachments/assets/2cddfa5f-b63f-447f-8366-3952dd4e0ea6)
+
