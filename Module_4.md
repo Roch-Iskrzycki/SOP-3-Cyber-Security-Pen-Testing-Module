@@ -114,7 +114,7 @@
   
   ## Task 2: What port does SMB use to operate at?
 
-  - 445
+  - 445  
   ![nmap](https://github.com/user-attachments/assets/603dd0e4-be33-4d04-85a2-e69281e262ca)
 
   ## Task 3: What is the service name for port 445 that came up in our Nmap scan?
@@ -124,22 +124,22 @@
 
   ## Task 4: What is the 'flag' or 'switch' that we can use with the smbclient utility to 'list' the available shares on Dancing?
 
-  - -L
+  - -L  
   ![list shares](https://github.com/user-attachments/assets/5ffc5933-4e59-4493-8dd5-cf93b1968357)
 
   ## Task 5: How many shares are there on Dancing?
 
-  - 4
+  - 4  
   ![list shares](https://github.com/user-attachments/assets/f453e174-b4b6-4432-aeb8-12214b8e87ba)
 
   ## Task 6: What is the name of the share we are able to access in the end with a blank password?
 
-  - Workshares
+  - Workshares  
   ![workshares](https://github.com/user-attachments/assets/4f10ad5e-565d-444e-a619-01761c2a48f0)
 
   ## Task 7: What is the command we can use within the SMB shell to download the files we find?
 
-  - get
+  - get  
 ![flag download](https://github.com/user-attachments/assets/61a15596-6f5d-4d1e-a764-f06f88927746)
 
 
