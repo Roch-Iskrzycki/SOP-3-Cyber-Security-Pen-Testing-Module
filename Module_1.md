@@ -25,10 +25,10 @@ Using the "pwd" command to show the current working directory and "ls -la" comma
 
 
 ## SMB: 
-  For the smb anonymous connection it requires a machine to have port 139 and port 445 open using the netbios-ssn service.
+  For the smb anonymous connection it requires a machine to have port 445 open using the microsoft-ds.
 
   In the screenshot below it shows an nmap scan to show open ports on the vulnerable metasploit virtual machine.
-  In the list of ports in shows port 139 and port 445 using the netbios-ssn service to be open. 
+  In the list of ports it shows port 445 using the microsoft-ds service to be open. 
 
 ![Nmap -sS Scan ](https://github.com/user-attachments/assets/dde5f0c5-62fd-4210-b1fb-babcaf096ec0)
 
