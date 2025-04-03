@@ -165,7 +165,7 @@
 
   ## Task 3: What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
 
-  -In-memory Database  
+  - In-memory Database  
   
   ## Task 4: Which command-line utility is used to interact with the Redis server? Enter the program name you would enter into the terminal without any arguments.
 
